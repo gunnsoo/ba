@@ -1,4 +1,4 @@
-name: Batch
+name: Batch-2
 
 on:
   workflow_dispatch:
@@ -32,4 +32,4 @@ jobs:
       - name: execute py script
         env:
           TOKEN: ${{ secrets.TOKEN }}
-        run: python ./wa-sample/m.py
+        run: python ./wa-sample/m-2.py
