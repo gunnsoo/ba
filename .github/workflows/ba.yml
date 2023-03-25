@@ -7,10 +7,13 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: checkout repo content
+      - name: checkout ba repo
+        uses: actions/checkout@v3
+
+      - name: checkout wa repo
         uses: actions/checkout@v3
         with:
           repository: gunnsoo/wa-sample
           path: ./wa-sample
-      
+
       - run: ls ./wa-sample
