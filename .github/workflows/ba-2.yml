@@ -34,4 +34,6 @@ jobs:
       - name: execute py script
         env:
           TOKEN: ${{ secrets.TOKEN }}
+          ID: ${{ secrets.ID }}
+          PW: ${{ secrets.PW }}
         run: python ./wa-sample/m-2.py
