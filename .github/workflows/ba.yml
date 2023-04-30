@@ -2,7 +2,7 @@ name: Batch
 
 on:
   schedule:
-    - cron: '*/6 * * * *'
+    - cron: '* * * * *'
   workflow_dispatch:
 
 jobs:
