@@ -1,4 +1,4 @@
-name: Batch
+name: New-Batch
 
 on:
   schedule:
