@@ -2,8 +2,8 @@ name: Batch
 
 on:
   schedule:
-    - cron: '*/1 * * * *'
-  workflow_dispatch:
+    - cron: '* * * * *'
+  # workflow_dispatch:
 
 jobs:
   build:
